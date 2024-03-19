@@ -79,7 +79,6 @@ public class GameController extends JPanel implements KeyListener, ActionListene
     }
 
     private void controllerWeapon(Graphics2D g2d) {
-        System.out.println(this.weapons);
         this.removeProjetile();
         this.drawWeapons(g2d);
     }
